@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Lv Select</name>
+    <events>
+        <event-block sid="4304648542569469">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3025598706427108" type="mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Lv1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3248314599978197" type="System">
+                    <param id="0" name="Layout">Cave</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="6767818836411923" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="5997558821993294">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2492291917305527" type="mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Lv2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5326720523900459" type="System">
+                    <param id="0" name="Layout">Forest</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="8437910468789464" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="9976889312617497">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5310710975204284" type="mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Lv3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9886249013711226" type="System">
+                    <param id="0" name="Layout">Grass</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="8522404889666849" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="1997229525751322">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5878847549702787" type="mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Lv4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5074222053938607" type="System">
+                    <param id="0" name="Layout">Fall</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="7530084800915108" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="8699231312105081">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1836291784132618" type="mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Lv5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5508895511392796" type="System">
+                    <param id="0" name="Layout">Desert</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="9726877797232468" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="1037207346803728">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="7928120826150708" type="mouse">
+                    <param id="0" name="Object">Cont</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="6348168676754643" type="Cont">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1702843215013768">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="1243081075511839" type="mouse">
+                    <param id="0" name="Object">Cont</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="6495249572526055" type="Cont">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4646330782583427">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5617728510828607" type="mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Cont</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9254864292315027" type="System">
+                    <param id="0" name="Layout">Start</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8529707368346489">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="4436230042539552" type="mouse">
+                    <param id="0" name="Object">Lv1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="6492717988054486" type="Lv1">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6161503484787528">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="6725713652478307" type="mouse">
+                    <param id="0" name="Object">Lv1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7323568365963031" type="Lv1">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1253789422912413">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8864547017006215" type="mouse">
+                    <param id="0" name="Object">Lv2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="6428143327475017" type="Lv2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3477441034258913">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="3593043814228781" type="mouse">
+                    <param id="0" name="Object">Lv2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7530786614717546" type="Lv2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2848746808380542">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="9291431827670866" type="mouse">
+                    <param id="0" name="Object">Lv3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8222277475813521" type="Lv3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2370268066374694">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="3897546894921636" type="mouse">
+                    <param id="0" name="Object">Lv3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="3289972621221078" type="Lv3">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5496819470939422">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="688956295837461" type="mouse">
+                    <param id="0" name="Object">Lv4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8297030389459569" type="Lv4">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5564065032531089">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="1503896674576999" type="mouse">
+                    <param id="0" name="Object">Lv4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="798663512293946" type="Lv4">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4392442833222592">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="3063387790497146" type="mouse">
+                    <param id="0" name="Object">Lv5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="5109382792602697" type="Lv5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2656884176328002">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="618835853866826" type="mouse">
+                    <param id="0" name="Object">Lv5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8244504560082898" type="Lv5">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

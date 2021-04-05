@@ -1,0 +1,998 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Juna Go</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>2g1avfqon9c4s</unique-id>
+    <saved-with-version>22700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>800</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="mouse" sid="9554678469773423">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Arjun" sid="9861988447882252">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="gravity" sid="6031949074400254" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Kedip" pingpong="1" repeatcount="1" repeatto="0" sid="3577180324832078" speed="2">
+                    <frame duration="1" hotspotX="0.483232" hotspotY="0.53429" original-source="D:\Gambar\Arjun\arjun.png">
+                        <image-point name="Imagepoint 1" x="0.716463" y="0.848485" />
+                        <collision-poly>
+                            <point x="0.204602" y="0.0015949" />
+                            <point x="0.798828" y="0.0015949" />
+                            <point x="0.860137" y="0.279815" />
+                            <point x="0.863281" y="0.803822" />
+                            <point x="0.712366" y="0.983043" />
+                            <point x="0.320932" y="0.865269" />
+                            <point x="0.168445" y="0.884045" />
+                            <point x="0" y="0.406122" />
+                            <point x="0" y="0.168014" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.385671" hotspotY="0.427683" original-source="D:\Gambar\Arjun\arjuna2.png">
+                        <image-point name="Imagepoint 1" x="0.704268" y="0.821151" />
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.0855128" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="10" loop="1" name="Putar" pingpong="1" repeatcount="1" repeatto="0" sid="292724003216975" speed="5">
+                    <frame duration="1" hotspotX="0.483232" hotspotY="0.53429">
+                        <collision-poly>
+                            <point x="0.204602" y="0.0015949" />
+                            <point x="0.798828" y="0.0015949" />
+                            <point x="0.860137" y="0.279815" />
+                            <point x="0.863281" y="0.803822" />
+                            <point x="0.712366" y="0.983043" />
+                            <point x="0.320932" y="0.865269" />
+                            <point x="0.168445" y="0.884045" />
+                            <point x="0" y="0.406122" />
+                            <point x="0" y="0.168014" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.385671" hotspotY="0.427683">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.0855128" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.46571" hotspotY="0.483232">
+                        <collision-poly>
+                            <point x="0.998405" y="0.204602" />
+                            <point x="0.998405" y="0.798828" />
+                            <point x="0.720185" y="0.860137" />
+                            <point x="0.196178" y="0.863281" />
+                            <point x="0.0169567" y="0.712366" />
+                            <point x="0.134731" y="0.320932" />
+                            <point x="0.115955" y="0.168445" />
+                            <point x="0.593878" y="0" />
+                            <point x="0.831986" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.572317" hotspotY="0.385671">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0.914487" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.516768" hotspotY="0.46571">
+                        <collision-poly>
+                            <point x="0.795398" y="0.998405" />
+                            <point x="0.201172" y="0.998405" />
+                            <point x="0.139863" y="0.720185" />
+                            <point x="0.136719" y="0.196178" />
+                            <point x="0.287634" y="0.0169567" />
+                            <point x="0.679068" y="0.134731" />
+                            <point x="0.831555" y="0.115955" />
+                            <point x="1" y="0.593878" />
+                            <point x="1" y="0.831986" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.614329" hotspotY="0.572317">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.914487" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.53429" hotspotY="0.516768">
+                        <collision-poly>
+                            <point x="0.0015949" y="0.795398" />
+                            <point x="0.0015949" y="0.201172" />
+                            <point x="0.279815" y="0.139863" />
+                            <point x="0.803822" y="0.136719" />
+                            <point x="0.983043" y="0.287634" />
+                            <point x="0.865269" y="0.679068" />
+                            <point x="0.884045" y="0.831555" />
+                            <point x="0.406122" y="1" />
+                            <point x="0.168014" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.427683" hotspotY="0.614329">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.0855128" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.483232" hotspotY="0.53429">
+                        <collision-poly>
+                            <point x="0.204602" y="0.0015949" />
+                            <point x="0.798828" y="0.0015949" />
+                            <point x="0.860137" y="0.279815" />
+                            <point x="0.863281" y="0.803822" />
+                            <point x="0.712366" y="0.983043" />
+                            <point x="0.320932" y="0.865269" />
+                            <point x="0.168445" y="0.884045" />
+                            <point x="0" y="0.406122" />
+                            <point x="0" y="0.168014" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.385671" hotspotY="0.427683">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.0855128" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BG1" sid="297716687528395">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="rockBottom1" sid="3184873102262292">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4444392855597949" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502092" original-source="D:\Gambar\Project Assets\tappyplane\PNG\rock.png">
+                        <collision-poly>
+                            <point x="0.583334" y="0" />
+                            <point x="0.638889" y="0" />
+                            <point x="0.990741" y="0.995816" />
+                            <point x="0.00925926" y="0.995816" />
+                            <point x="0.342593" y="0.497908" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rockTop1" sid="2061431210293616">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8122561108732201" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502092" original-source="D:\Gambar\Project Assets\tappyplane\PNG\rockDown.png">
+                        <collision-poly>
+                            <point x="0.00925926" y="0.0041841" />
+                            <point x="0.990741" y="0.0041841" />
+                            <point x="0.629629" y="1" />
+                            <point x="0.574074" y="1" />
+                            <point x="0.342593" y="0.497908" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tap" sid="8761130745374788">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3936669957252992" speed="5">
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.508475">
+                        <collision-poly>
+                            <point x="0.355932" y="0.355932" />
+                            <point x="0.491525" y="0.338983" />
+                            <point x="0.559322" y="0.440678" />
+                            <point x="0.898305" y="0.491525" />
+                            <point x="0.864407" y="0.864407" />
+                            <point x="0.491525" y="0.830508" />
+                            <point x="0.40678" y="0.59322" />
+                            <point x="0.355932" y="0.491525" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.508475">
+                        <collision-poly>
+                            <point x="0.135593" y="0.135593" />
+                            <point x="0.491525" y="0" />
+                            <point x="0.559322" y="0.440678" />
+                            <point x="0.898305" y="0.491525" />
+                            <point x="0.864407" y="0.864407" />
+                            <point x="0.491525" y="0.830508" />
+                            <point x="0.40678" y="0.59322" />
+                            <point x="0.355932" y="0.491525" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="G1" sid="2904452497515323">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="BG2" sid="914250988501030">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Gambar\Project Assets\background-elements-redux\Backgrounds\backgroundColorForest.png" />
+        </object-type>
+        <object-type name="BG3" sid="527685845719362">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Gambar\Project Assets\background-elements-redux\Backgrounds\backgroundColorGrass.png" />
+        </object-type>
+        <object-type name="BG4" sid="840907728488128">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Gambar\Project Assets\background-elements-redux\Backgrounds\backgroundColorFall.png" />
+        </object-type>
+        <object-type name="BG5" sid="370608372255435">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Gambar\Project Assets\background-elements-redux\Backgrounds\backgroundColorDesert.png" />
+        </object-type>
+        <object-type name="G2" sid="508143751041602">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Gambar\Project Assets\background-elements-redux\Backgrounds\backgroundColorForest.png" />
+        </object-type>
+        <object-type name="G3" sid="350062115008256">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Gambar\Project Assets\tappyplane\PNG\groundGrass.png" />
+        </object-type>
+        <object-type name="G4" sid="127330964266995">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Gambar\Project Assets\tappyplane\PNG\groundRock.png" />
+        </object-type>
+        <object-type name="G5" sid="209806903221374">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Gambar\Project Assets\tappyplane\PNG\groundSnow.png" />
+        </object-type>
+        <object-type name="rockBottom2" sid="192381727218902">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="218946653206425" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503937" original-source="D:\Gambar\Project Assets\background-elements-redux\PNG\Default\treePine.png">
+                        <collision-poly>
+                            <point x="0.311321" y="0.129921" />
+                            <point x="0.5" y="0.141732" />
+                            <point x="0.556604" y="0.185039" />
+                            <point x="0.783019" y="0.5" />
+                            <point x="0.54717" y="0.811024" />
+                            <point x="0.5" y="1" />
+                            <point x="0.415094" y="0.826772" />
+                            <point x="0.113208" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rockBottom3" sid="735876554278960">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="343558213601577" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gambar\Project Assets\background-elements-redux\PNG\Default\treePalm.png">
+                        <collision-poly>
+                            <point x="0.582509" y="0.00416667" />
+                            <point x="0.637514" y="0.00416667" />
+                            <point x="0.985882" y="0.991684" />
+                            <point x="0.0141181" y="0.991684" />
+                            <point x="0.344151" y="0.497925" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rockBottom4" sid="546278003328629">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="181495242141446" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502008" original-source="D:\Gambar\Project Assets\background-elements-redux\PNG\Default\treeDead.png">
+                        <collision-poly>
+                            <point x="0.582376" y="0.00401606" />
+                            <point x="0.637293" y="0.00401606" />
+                            <point x="0.9851" y="0.991834" />
+                            <point x="0.0149" y="0.991834" />
+                            <point x="0.344402" y="0.497925" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rockBottom5" sid="849923046957584">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="326038790339928" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503546" original-source="D:\Gambar\Project Assets\background-elements-redux\PNG\Default\cactus1.png">
+                        <collision-poly>
+                            <point x="0.581633" y="0.0070922" />
+                            <point x="0.636055" y="0.0070922" />
+                            <point x="0.980726" y="0.988783" />
+                            <point x="0.0192744" y="0.988783" />
+                            <point x="0.345805" y="0.497938" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rockTop2" sid="647292931701628">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="107254395219012" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.496094" original-source="D:\Gambar\Project Assets\background-elements-redux\PNG\Default\treePine.png">
+                        <collision-poly>
+                            <point x="0.345508" y="0.502076" />
+                            <point x="0.572702" y="0.00390625" />
+                            <point x="0.627228" y="0.00390625" />
+                            <point x="0.981653" y="0.991942" />
+                            <point x="0.0183471" y="0.991942" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rockTop3" sid="956210247318846">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186605716961710" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gambar\Project Assets\background-elements-redux\PNG\Default\treePalm.png">
+                        <collision-poly>
+                            <point x="0.344151" y="0.502075" />
+                            <point x="0.573341" y="0.00416666" />
+                            <point x="0.628346" y="0.00416666" />
+                            <point x="0.985882" y="0.991684" />
+                            <point x="0.0141181" y="0.991684" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rockTop4" sid="790600428216160">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="209694632372456" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.497992" original-source="D:\Gambar\Project Assets\background-elements-redux\PNG\Default\treeDead.png">
+                        <collision-poly>
+                            <point x="0.344402" y="0.502075" />
+                            <point x="0.573223" y="0.00401604" />
+                            <point x="0.628139" y="0.00401604" />
+                            <point x="0.9851" y="0.991833" />
+                            <point x="0.0149" y="0.991833" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rockTop5" sid="698211709641077">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="532628785177777" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.496454" original-source="D:\Gambar\Project Assets\background-elements-redux\PNG\Default\cactus1.png">
+                        <collision-poly>
+                            <point x="0.345805" y="0.502062" />
+                            <point x="0.572562" y="0.0070922" />
+                            <point x="0.626984" y="0.0070922" />
+                            <point x="0.980726" y="0.988783" />
+                            <point x="0.0192744" y="0.988783" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Buto" sid="616901620047489">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="388919904819178" speed="3">
+                    <frame duration="1" hotspotX="0.548495" hotspotY="0.5" original-source="D:\Gambar\Arjun\butoo.png">
+                        <collision-poly>
+                            <point x="0.985507" y="0.5" />
+                            <point x="0.913043" y="0.80241" />
+                            <point x="0.548495" y="0.96506" />
+                            <point x="0.190635" y="0.793976" />
+                            <point x="0.0178372" y="0.5" />
+                            <point x="0.212932" y="0.23012" />
+                            <point x="0.548495" y="0.0493976" />
+                            <point x="0.919732" y="0.190361" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.71517" hotspotY="0.409739" original-source="D:\Gambar\Arjun\buto2.png">
+                        <collision-poly>
+                            <point x="1" y="0.409739" />
+                            <point x="1" y="1" />
+                            <point x="0.715188" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.409739" />
+                            <point x="0" y="0" />
+                            <point x="0.715188" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keris" sid="795672191205016">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="407077335612728">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="807516027374465" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gambar\Arjun\kisspng-dagger-kris-sword-java-blade-5afbff693380f8.986096661526464361211.png">
+                        <collision-poly>
+                            <point x="0.985521" y="0.0149701" />
+                            <point x="0.5" y="0.600798" />
+                            <point x="0.278958" y="0.711577" />
+                            <point x="0.462355" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CPoint" sid="261485507330564">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="631232283699323">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Spin" pingpong="0" repeatcount="1" repeatto="0" sid="662104881422847" speed="7">
+                    <frame duration="1" hotspotX="0.503356" hotspotY="0.462361" original-source="D:\Gambar\Project Assets\star coin animation Pack\star coin rotate\star coin rotate 1.png">
+                        <collision-poly>
+                            <point x="0.0200611" y="0.0686911" />
+                            <point x="0.502749" y="0.000445434" />
+                            <point x="0.985436" y="0.0686911" />
+                            <point x="0.999553" y="0.453078" />
+                            <point x="0.949234" y="0.81916" />
+                            <point x="0.502749" y="0.956441" />
+                            <point x="0.0441955" y="0.828312" />
+                            <point x="0.000447427" y="0.453078" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500255" hotspotY="0.5" original-source="D:\Gambar\Project Assets\star coin animation Pack\star coin rotate\star coin rotate 2.png" />
+                    <frame duration="1" hotspotX="0.500473" hotspotY="0.5" original-source="D:\Gambar\Project Assets\star coin animation Pack\star coin rotate\star coin rotate 3.png" />
+                    <frame duration="1" hotspotX="0.501475" hotspotY="0.5" original-source="D:\Gambar\Project Assets\star coin animation Pack\star coin rotate\star coin rotate 4.png" />
+                    <frame duration="1" hotspotX="0.500473" hotspotY="0.5" original-source="D:\Gambar\Project Assets\star coin animation Pack\star coin rotate\star coin rotate 5.png" />
+                    <frame duration="1" hotspotX="0.500255" hotspotY="0.5" original-source="D:\Gambar\Project Assets\star coin animation Pack\star coin rotate\star coin rotate 6.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Hp" sid="214821656760083">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Point" sid="611767710597527">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="YouWin" sid="506427811336624">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="188780485734115" speed="5">
+                    <frame duration="1" hotspotX="0.508114" hotspotY="0.5" original-source="D:\Gambar\Track\65-651496_you-win-image-transparent.png">
+                        <collision-poly>
+                            <point x="0.0507959" y="0.045342" />
+                            <point x="0.491027" y="0.256938" />
+                            <point x="0.94819" y="0.045342" />
+                            <point x="0.728074" y="0.498762" />
+                            <point x="0.677279" y="0.710359" />
+                            <point x="0.491027" y="0.921955" />
+                            <point x="0.338639" y="0.695244" />
+                            <point x="0.287843" y="0.498762" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="YouLose" sid="768753841620474">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894576532974427" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gambar\Track\you-lose-video-game-arcade-broken-monitor-motion-background-lose-a-game-png-1920_1080.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Cont" sid="925326634072432">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="734367766808879" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gambar\Project Assets\onscreencontrols\Sprites\flatDark\flatDark44.png">
+                        <collision-poly>
+                            <point x="0.158537" y="0.158537" />
+                            <point x="0.5" y="0.0121951" />
+                            <point x="0.841463" y="0.158537" />
+                            <point x="0.987805" y="0.5" />
+                            <point x="0.841463" y="0.841463" />
+                            <point x="0.5" y="0.987805" />
+                            <point x="0.158537" y="0.841463" />
+                            <point x="0.0121951" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.158537" y="0.158537" />
+                            <point x="0.5" y="0.0121951" />
+                            <point x="0.841463" y="0.158537" />
+                            <point x="0.987805" y="0.5" />
+                            <point x="0.841463" y="0.841463" />
+                            <point x="0.5" y="0.987805" />
+                            <point x="0.158537" y="0.841463" />
+                            <point x="0.0121951" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Click" sid="331754409826073">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Start" sid="748991827016068">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="621289820578051" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gambar\Track\pngkey.com-start-button-png-1108877.png">
+                        <collision-poly>
+                            <point x="0.0317221" y="0.0801527" />
+                            <point x="0.498489" y="0.00381679" />
+                            <point x="0.966767" y="0.0801527" />
+                            <point x="0.998489" y="0.496183" />
+                            <point x="0.968278" y="0.919847" />
+                            <point x="0.498489" y="0.996183" />
+                            <point x="0.0317221" y="0.916031" />
+                            <point x="0.00151057" y="0.496183" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0317221" y="0.0801527" />
+                            <point x="0.498489" y="0.00381679" />
+                            <point x="0.966767" y="0.0801527" />
+                            <point x="0.998489" y="0.496183" />
+                            <point x="0.968278" y="0.919847" />
+                            <point x="0.498489" y="0.996183" />
+                            <point x="0.0317221" y="0.916031" />
+                            <point x="0.00151057" y="0.496183" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Title" sid="368058350850328">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="662731602659804" speed="2">
+                    <frame duration="1" hotspotX="0.500184" hotspotY="0.5" original-source="D:\Gambar\JunaGo.png">
+                        <collision-poly>
+                            <point x="0.500184" y="0.0617809" />
+                            <point x="0.952398" y="0.0315589" />
+                            <point x="1" y="0.5" />
+                            <point x="0.785793" y="0.862664" />
+                            <point x="0.500184" y="0.923108" />
+                            <point x="0.166973" y="0.892886" />
+                            <point x="0.500184" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500184" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.500184" y="0.0617809" />
+                            <point x="0.952398" y="0.0315589" />
+                            <point x="1" y="0.5" />
+                            <point x="0.785793" y="0.862664" />
+                            <point x="0.500184" y="0.923108" />
+                            <point x="0.166973" y="0.892886" />
+                            <point x="0.500184" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500184" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.500184" y="0.0617809" />
+                            <point x="0.952398" y="0.0315589" />
+                            <point x="1" y="0.5" />
+                            <point x="0.785793" y="0.862664" />
+                            <point x="0.500184" y="0.923108" />
+                            <point x="0.166973" y="0.892886" />
+                            <point x="0.500184" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BGStart" sid="833101230418056">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="578354021476835" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500209" original-source="D:\Gambar\mainmenu.png">
+                        <collision-poly>
+                            <point x="0.000293083" y="0.000418936" />
+                            <point x="0.999707" y="0.000418936" />
+                            <point x="0.999414" y="0.999162" />
+                            <point x="0.000293083" y="0.999581" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tutor" sid="627085234384730">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="Audio" sid="586162867825715">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Buspa" sid="481477470424026">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="759606551566501" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="643905096284999">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="Keyboard" sid="114393225137666">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="BGLv" sid="8696340405007878">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9095167463311919" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50021" original-source="D:\Gambar\Track\mainmenu.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.999707" y="0.999581" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lv1" sid="4256398750222761">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3368447238433076" speed="5">
+                    <frame duration="1" hotspotX="0.591837" hotspotY="0.42029" original-source="D:\Gambar\Project Assets\platformer-pack-redux-360-assets\PNG\HUD\hud1.png">
+                        <collision-poly>
+                            <point x="0.244898" y="0.173913" />
+                            <point x="0.591837" y="0.0289855" />
+                            <point x="0.959184" y="0.15942" />
+                            <point x="0.938776" y="0.42029" />
+                            <point x="0.938776" y="0.666667" />
+                            <point x="0.591837" y="0.985507" />
+                            <point x="0.346939" y="0.594203" />
+                            <point x="0.0408163" y="0.42029" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.591837" hotspotY="0.42029">
+                        <collision-poly>
+                            <point x="0.244898" y="0.173913" />
+                            <point x="0.591837" y="0.0289855" />
+                            <point x="0.959184" y="0.15942" />
+                            <point x="0.938776" y="0.42029" />
+                            <point x="0.938776" y="0.666667" />
+                            <point x="0.591837" y="0.985507" />
+                            <point x="0.346939" y="0.594203" />
+                            <point x="0.0408163" y="0.42029" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lv2" sid="7176930166690243">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6888089287413747" speed="5">
+                    <frame duration="1" hotspotX="0.491525" hotspotY="0.4" original-source="D:\Gambar\Project Assets\platformer-pack-redux-360-assets\PNG\HUD\hud2.png">
+                        <collision-poly>
+                            <point x="0.169492" y="0.128571" />
+                            <point x="0.491525" y="0.0142857" />
+                            <point x="0.830508" y="0.114286" />
+                            <point x="0.932203" y="0.4" />
+                            <point x="0.966102" y="0.8" />
+                            <point x="0.491525" y="0.957143" />
+                            <point x="0.0677966" y="0.757143" />
+                            <point x="0.0338983" y="0.4" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.491525" hotspotY="0.4">
+                        <collision-poly>
+                            <point x="0.169492" y="0.128571" />
+                            <point x="0.491525" y="0.0142857" />
+                            <point x="0.830508" y="0.114286" />
+                            <point x="0.932203" y="0.4" />
+                            <point x="0.966102" y="0.8" />
+                            <point x="0.491525" y="0.957143" />
+                            <point x="0.0677966" y="0.757143" />
+                            <point x="0.0338983" y="0.4" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lv3" sid="3917710832527744">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4906140030970559" speed="5">
+                    <frame duration="1" hotspotX="0.54717" hotspotY="0.408451" original-source="D:\Gambar\Project Assets\platformer-pack-redux-360-assets\PNG\HUD\hud3.png">
+                        <collision-poly>
+                            <point x="0.132075" y="0.0985916" />
+                            <point x="0.54717" y="0.028169" />
+                            <point x="0.924528" y="0.126761" />
+                            <point x="0.924528" y="0.408451" />
+                            <point x="0.962264" y="0.71831" />
+                            <point x="0.54717" y="0.985915" />
+                            <point x="0.0377358" y="0.788732" />
+                            <point x="0.245283" y="0.408451" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.54717" hotspotY="0.408451">
+                        <collision-poly>
+                            <point x="0.132075" y="0.0985916" />
+                            <point x="0.54717" y="0.028169" />
+                            <point x="0.924528" y="0.126761" />
+                            <point x="0.924528" y="0.408451" />
+                            <point x="0.962264" y="0.71831" />
+                            <point x="0.54717" y="0.985915" />
+                            <point x="0.0377358" y="0.788732" />
+                            <point x="0.245283" y="0.408451" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lv5" sid="7888180939454426">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2254981946471594" speed="5">
+                    <frame duration="1" hotspotX="0.537037" hotspotY="0.43662" original-source="D:\Gambar\Project Assets\platformer-pack-redux-360-assets\PNG\HUD\hud5.png">
+                        <collision-poly>
+                            <point x="0.0740741" y="0.084507" />
+                            <point x="0.537037" y="0.028169" />
+                            <point x="0.944444" y="0.126761" />
+                            <point x="0.925926" y="0.43662" />
+                            <point x="0.944444" y="0.746479" />
+                            <point x="0.537037" y="0.985915" />
+                            <point x="0.037037" y="0.816901" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.537037" hotspotY="0.43662">
+                        <collision-poly>
+                            <point x="0.0740741" y="0.084507" />
+                            <point x="0.537037" y="0.028169" />
+                            <point x="0.944444" y="0.126761" />
+                            <point x="0.925926" y="0.43662" />
+                            <point x="0.944444" y="0.746479" />
+                            <point x="0.537037" y="0.985915" />
+                            <point x="0.037037" y="0.816901" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lv4" sid="2806882339721337">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1043362474553398" speed="5">
+                    <frame duration="1" hotspotX="0.537037" hotspotY="0.422535" original-source="D:\Gambar\Project Assets\platformer-pack-redux-360-assets\PNG\HUD\hud4.png">
+                        <collision-poly>
+                            <point x="0.277778" y="0.225352" />
+                            <point x="0.537037" y="0.028169" />
+                            <point x="0.87037" y="0.169014" />
+                            <point x="0.962963" y="0.422535" />
+                            <point x="0.944444" y="0.732394" />
+                            <point x="0.537037" y="0.971831" />
+                            <point x="0.0925926" y="0.760563" />
+                            <point x="0.0555556" y="0.422535" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.537037" hotspotY="0.422535">
+                        <collision-poly>
+                            <point x="0.277778" y="0.225352" />
+                            <point x="0.537037" y="0.028169" />
+                            <point x="0.87037" y="0.169014" />
+                            <point x="0.962963" y="0.422535" />
+                            <point x="0.944444" y="0.732394" />
+                            <point x="0.537037" y="0.971831" />
+                            <point x="0.0925926" y="0.760563" />
+                            <point x="0.0555556" y="0.422535" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Select" sid="49714469824641">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="8111795649393133">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3095684007285654" speed="5">
+                    <frame duration="1" hotspotX="0.500377" hotspotY="1.15111" original-source="D:\Gambar\Track\Select Level.png">
+                        <collision-poly>
+                            <point x="0.000753579" y="0.00444444" />
+                            <point x="0.999246" y="0.00444444" />
+                            <point x="0.935946" y="1" />
+                            <point x="0.499623" y="1" />
+                            <point x="0.101733" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Level" sid="3254549953889853">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="473061578687428">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163601538464812" speed="5">
+                    <frame duration="1" hotspotX="0.478656" hotspotY="-0.207729" original-source="D:\Gambar\Track\Select Level.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.63285" />
+                            <point x="0.477747" y="1" />
+                            <point x="0" y="0.391304" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="rocks" plugin-id="Sprite" sid="467383845650434">
+            <members>
+                <member>rockBottom1</member>
+                <member>rockBottom2</member>
+                <member>rockBottom3</member>
+                <member>rockBottom4</member>
+                <member>rockBottom5</member>
+                <member>rockTop1</member>
+                <member>rockTop2</member>
+                <member>rockTop3</member>
+                <member>rockTop4</member>
+                <member>rockTop5</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Start.xml</layout>
+        <layout>Level Select.xml</layout>
+        <layout>Cave.xml</layout>
+        <layout>Forest.xml</layout>
+        <layout>Grass.xml</layout>
+        <layout>Fall.xml</layout>
+        <layout>Desert.xml</layout>
+        <layout>You Win.xml</layout>
+        <layout>You Lose.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Cave.xml</event-sheet>
+        <event-sheet>Start.xml</event-sheet>
+        <event-sheet>Lose.xml</event-sheet>
+        <event-sheet>Win.xml</event-sheet>
+        <event-sheet>Forest.xml</event-sheet>
+        <event-sheet>Grass.xml</event-sheet>
+        <event-sheet>Fall.xml</event-sheet>
+        <event-sheet>Desert.xml</event-sheet>
+        <event-sheet>Lv Select.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="mouse" uid="34" />
+        <global-instance type="Audio" uid="36">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>Yes</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Keyboard" uid="69" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder>
+        <file name="media.io_JP Soundworks - Playing Time.ogg" />
+        <file name="media.io_media.io_135936__bradwesson__collectcoin.ogg" />
+        <file name="you_win.ogg" />
+        <file name="you_lose.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

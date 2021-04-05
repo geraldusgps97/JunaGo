@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Start</name>
+    <events>
+        <event-block sid="966396942160111">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="123567017040751" type="mouse">
+                    <param id="0" name="Object">Start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="796289952727317" type="Start">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="734437960992197">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="248013109890530" type="mouse">
+                    <param id="0" name="Object">Start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="578718834538936" type="Start">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="303362514994322">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="210491471579077" type="mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="333872773888843" type="System">
+                    <param id="0" name="Layout">Cave</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="595951538442226">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="396079185501531" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="695934999635569" type="Audio">
+                    <param id="0" name="Audio file">media.io_JP Soundworks - Playing Time</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

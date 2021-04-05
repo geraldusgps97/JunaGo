@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Lose</name>
+    <events>
+        <event-block sid="8106164620348129">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="5306881650238299" type="mouse">
+                    <param id="0" name="Object">Cont</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="2571190611020363" type="Cont">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="635186787263997">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="9625640809045856" type="mouse">
+                    <param id="0" name="Object">Cont</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8676762091836153" type="Cont">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5520523165601233">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4913249814747429" type="mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Cont</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4897830791229538" type="System">
+                    <param id="0" name="Layout">Level Select</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9169243849151026">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9414547262039489" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="4199197711980755" type="Audio">
+                    <param id="0" name="Audio file">you_lose</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
